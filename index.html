@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imran Ahamed | Full Stack Developer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./css/tailwind.css"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -588,9 +588,9 @@
             <div class="w-20 h-1 bg-blue-600 mb-12"></div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- ERP System -->
+                <!-- Project: ERP System -->
                 <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                         alt="ERP System" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <div class="flex justify-between items-center mb-4">
@@ -598,26 +598,17 @@
                                 <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
                                 <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">jQuery</span>
                             </div>
-                            <a href="#" class="text-gray-400 hover:text-blue-400">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
                         </div>
                         <h3 class="text-xl font-semibold mb-2">ERP System</h3>
-                        <p class="text-gray-400 mb-4">Comprehensive enterprise resource planning solution with multiple
-                            business modules.</p>
+                        <p class="text-gray-400 mb-4">Scalable ERP system for HR, accounts, inventory, payroll, and
+                            attendance with biometric device integration.</p>
                         <ul class="text-sm text-gray-300 space-y-1 mb-4">
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Role-based dashboard</span>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Reduced manual attendance by 50%
                             </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Biometric attendance</span>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Centralized HR and finance data
                             </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Inventory management</span>
-                            </li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Improved decision-making via
+                                reports</li>
                         </ul>
                         <div class="pt-4 border-t border-gray-800">
                             <span class="text-xs text-gray-500">Challenge: ZKTeco device sync</span>
@@ -625,75 +616,136 @@
                     </div>
                 </div>
 
-                <!-- E-commerce + POS -->
+                <!-- Project: POS System -->
                 <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                        alt="E-commerce POS" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <div class="flex justify-between items-center mb-4">
-                            <div class="flex space-x-2">
-                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
-                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Vue.js</span>
-                            </div>
-                            <a href="#" class="text-gray-400 hover:text-blue-400">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">E-commerce + POS</h3>
-                        <p class="text-gray-400 mb-4">Integrated solution for online and in-store sales with real-time
-                            sync.</p>
-                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Order synchronization</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Barcode scanning</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Live sales analytics</span>
-                            </li>
-                        </ul>
-                        <div class="pt-4 border-t border-gray-800">
-                            <span class="text-xs text-gray-500">Challenge: Checkout workflow</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- School Management -->
-                <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                        alt="School Management" class="w-full h-48 object-cover">
+                    <img src="https://images.unsplash.com/photo-1589187155472-cbe660dbde88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="POS System" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <div class="flex justify-between items-center mb-4">
                             <div class="flex space-x-2">
                                 <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
                                 <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">jQuery</span>
                             </div>
-                            <a href="#" class="text-gray-400 hover:text-blue-400">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
                         </div>
-                        <h3 class="text-xl font-semibold mb-2">School Management</h3>
-                        <p class="text-gray-400 mb-4">Published on CodeCanyon with comprehensive academic features.</p>
+                        <h3 class="text-xl font-semibold mb-2">POS System</h3>
+                        <p class="text-gray-400 mb-4">Point of Sale system with order sync, barcode billing, coupons and
+                            live analytics.</p>
                         <ul class="text-sm text-gray-300 space-y-1 mb-4">
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Academic management</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Exam setup & results</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check text-blue-400 mr-2 mt-1 text-xs"></i>
-                                <span>Parent & teacher portals</span>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Barcode billing and stock
+                                validation</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Live sales analytics</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Optimized checkout experience
                             </li>
                         </ul>
                         <div class="pt-4 border-t border-gray-800">
-                            <span class="text-xs text-gray-500">Challenge: Grading engine</span>
+                            <span class="text-xs text-gray-500">Challenge: Coupon & stock handling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: Restaurant System -->
+                <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+                    <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Restaurant System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Vue.js</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Restaurant System</h3>
+                        <p class="text-gray-400 mb-4">QR-based ordering, kitchen display, table layout, and dynamic
+                            kitchen order flow.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Auto-refresh kitchen queue</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Multiple order flow handling</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Improved serving time by 40%</li>
+                        </ul>
+                        <div class="pt-4 border-t border-gray-800">
+                            <span class="text-xs text-gray-500">Highlight: Dynamic kitchen dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: School Management System -->
+                <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+                    <img src="https://images.unsplash.com/photo-1557682260-9671b2b186fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="School Management System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">jQuery</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">School Management System</h3>
+                        <p class="text-gray-400 mb-4">Academic management system with result generator, parent/teacher
+                            portals, and dynamic reports.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Grading engine and report card
+                                system</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Attendance and exam management
+                            </li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Live on CodeCanyon marketplace
+                            </li>
+                        </ul>
+                        <div class="pt-4 border-t border-gray-800">
+                            <span class="text-xs text-gray-500">Challenge: Flexible grading & printing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: Courier Management System -->
+                <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+                    <img src="https://images.unsplash.com/photo-1615461066841-e7b6d4dfb930?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Courier Management System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">jQuery</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Courier Management System</h3>
+                        <p class="text-gray-400 mb-4">Parcel tracking platform with zone-based rates, real-time updates,
+                            and bulk label printing.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Real-time parcel status API</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Zone-based delivery rate logic
+                            </li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Bulk label generation support
+                            </li>
+                        </ul>
+                        <div class="pt-4 border-t border-gray-800">
+                            <span class="text-xs text-gray-500">Challenge: Real-time tracking integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: HRM System -->
+                <div class="project-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+                    <img src="https://images.unsplash.com/photo-1581093588401-9cd9cdb00f2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="HRM System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex space-x-2">
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Laravel</span>
+                                <span class="bg-blue-900 text-blue-300 text-xs px-3 py-1 rounded-full">Vue.js</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">HRM System</h3>
+                        <p class="text-gray-400 mb-4">Human Resource Management system with attendance, leave, payroll,
+                            and employee performance tracking.</p>
+                        <ul class="text-sm text-gray-300 space-y-1 mb-4">
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Leave calendar and attendance
+                                sync</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Payroll automation</li>
+                            <li><i class="fas fa-check text-blue-400 mr-2 text-xs"></i>Role-based employee management
+                            </li>
+                        </ul>
+                        <div class="pt-4 border-t border-gray-800">
+                            <span class="text-xs text-gray-500">Challenge: Performance metric tracking</span>
                         </div>
                     </div>
                 </div>
@@ -948,6 +1000,35 @@
             });
         });
     </script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("yRZ2TSyAEjBADbzft"); // Replace with your public key
+        })();
+
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const params = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                subject: document.getElementById("subject").value,
+                message: document.getElementById("message").value
+            };
+
+            emailjs.send("service_14ssedd", "template_l7o0j03", params)
+                .then(() => {
+                    alert("Message sent successfully!");
+                    form.reset();
+                }, (error) => {
+                    alert("Failed to send message. Try again.");
+                    console.error(error);
+                });
+        });
+    </script>
+
 </body>
 
 </html>
